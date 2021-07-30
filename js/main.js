@@ -12,7 +12,7 @@ $(function(){
     });
   });
   
-  $('#test').hover(function(){
+  $('#test').click(function(){
     $(this).addClass('active');
   });
   
