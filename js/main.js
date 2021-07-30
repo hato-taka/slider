@@ -6,6 +6,6 @@ $(function(){
   });
   
   $('.title').click(function(){
-    css("color":"red");
+    $(this).css('color','red');
   });
 });
