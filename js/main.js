@@ -12,8 +12,10 @@ $(function(){
     });
   });
   
-  $('#test').click(function(){
+  $('#test').hover(function(){
     $(this).addClass('active');
+  },function(){
+    $(this).removeClass('active')
   });
   
 });
