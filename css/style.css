@@ -5,6 +5,12 @@ img{
   width: 500px;
 }
 
-active{
+
+/* custom CSS */
+.title, #test{
+  cursor:pointer;
+}
+
+.active{
   background-color: #eee;
 }
