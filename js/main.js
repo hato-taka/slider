@@ -11,4 +11,9 @@ $(function(){
       'font-size':'2rem',
     });
   });
+  
+  $('#test').hover(function(){
+    $(this).addClass('active');
+  });
+  
 });
